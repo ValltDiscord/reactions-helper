@@ -1,10 +1,3 @@
-# reactions-helper
-**reactions-helper** is a JavaScript library that helps you to developer your own Discord Bot
-
-
-## Example Code:
-
-```javascript
 const Discord = require("discord.js")
 const client = new Discord.Client({ intents: new Discord.Intents(32767) });
 
@@ -26,4 +19,3 @@ client.on('messageCreate', async msg => {
 });
 
 client.login('token');
-```
