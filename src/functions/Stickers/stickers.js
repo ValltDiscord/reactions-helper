@@ -1,7 +1,6 @@
 
-function GetStickers(message) {
-  return message.stickers.map(s => `https://cdn.discordapp.com/stickers/${s.id}.${s.format?.toLowerCase()}`)
+function GetSticker(message) {
+  return message.stickers.map(s => s)[0]
 }
 
-
-module.exports = { GetStickers }
+module.exports = { GetSticker }
