@@ -1,2 +1,2 @@
 const { GetStickers, GetEmojis} = require('./functions');
-module.exports = {/*GetStickers,*/ GetEmojis }
+module.exports = { GetStickers, GetEmojis }
